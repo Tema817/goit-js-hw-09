@@ -2,9 +2,12 @@
   position: relative;
   display: inline-block;
   padding: 4px 8px;
-  margin-top: 32px;
+  margin-top: 0;
+  margin-bottom: 4px;
   border: 1px solid;
   border-radius: 8px;
+  background-color: #ff4e4e;
+  color: #fff;
 }
 .back-link::before {
   content: '';
@@ -26,4 +29,8 @@
 .back-link:hover::before {
   opacity: 1;
   animation-play-state: running;
+}
+
+.back-link:hover {
+    background-color: #ff7070;
 }
